@@ -259,11 +259,23 @@ S_B_8 : "🏩 yardım Komutlar 🏩"
 
 #Help 
 
-H_B_1 : "💎Admin"
-H_B_2 : "🎧Oynat"
-H_B_3 : "🤖Extra"
-H_B_4 : "🎭Eğlence komutları"
-H_B_7 : "🏷️Etiket komutları"
+H_B_1 : "🏷️Etiket Komutları"
+H_B_2 : "🎮Oyun Komutları"
+H_B_3 : "💡Yönetici"
+H_B_4 : "🔮yetki"
+H_B_5 : "🔰sudo"
+H_B_6 : "❌Kara liste"
+H_B_7 : "📵BLOK"
+H_B_8 : "🎵Kanal Oynatma"
+H_B_9 : "🟥 G-Yasağı"
+H_B_10 : "Döngü ♻️"
+H_B_11 : "🎥Yayın"
+H_B_12 : "⚪ Ping"
+H_B_13 : "🎧 Oynat"
+H_B_14 : "🔀 Karıştır"
+H_B_15 : "💬 Geri/İleri"
+H_B_16 : "🔎 indir"
+H_B_17 : "⏭️ Hız"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
