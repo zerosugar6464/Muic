@@ -27,7 +27,7 @@ autoend = {}
 
 
 async def auto_leave():
-    if config.AUTO_LEAVING_ASSISTANT == str(True):
+    if config.AUTO_LEAVING_ASSISTANT == str(False):
         while not await asyncio.sleep(config.AUTO_LEAVE_ASSISTANT_TIME):
             from AlexaMusic.core.userbot import assistants
 
@@ -44,7 +44,7 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001686672798
+                                and chat_id != -1002349741708
                             ):
                                 if not await is_active_chat(chat_id):
                                     try:
