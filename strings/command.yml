@@ -51,7 +51,7 @@ SUDOUSERS_COMMAND : ["sudolist", "listsudo"]
 BROADCAST_COMMAND : ["mehmet", "cihan"]
 
 #Blacklist chat
-BLACKLISTCHAT_COMMAND : ["blacklistchat", "blchat"]
+BLACKLISTCHAT_COMMAND : ["kapat", "kapali"]
 WHITELISTCHAT_COMMAND : ["whitelistchat", "unblchat"]
 BLACKLISTEDCHAT_COMMAND : ["blacklistedchat"]
 
