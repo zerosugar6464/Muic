@@ -23,7 +23,7 @@ API_HASH = getenv("API_HASH", "15ce514f4f3fcea70d7a49dc5064b839")
 
 BOT_TOKEN = getenv("BOT_TOKEN", "7563580567:AAHdItwB78m3OBWJ8SdbfpiRv5TWQMO0h7k")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://kurt67143:DLArCT171SF9wRKJ@alexsoza.xpoqv.mongodb.net/?retryWrites=true&w=majority&appName=Alexsoza")
+MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 
@@ -51,13 +51,13 @@ SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/the_team_kumsal")
 
 SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/kumsalmuzikk")
 
-AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
+AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
 
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "3400"))
 
 AUTO_SUGGESTION_TIME = int(getenv("AUTO_SUGGESTION_TIME", "5400"))
 
-AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "True")
+AUTO_DOWNLOADS_CLEAR = getenv("AUTO_DOWNLOADS_CLEAR", "False")
 
 AUTO_SUGGESTION_MODE = getenv("AUTO_SUGGESTION_MODE", "False")
 
