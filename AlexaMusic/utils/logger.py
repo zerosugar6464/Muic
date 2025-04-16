@@ -1,7 +1,7 @@
 import os
 from config import LOG, LOG_GROUP_ID
 from AlexaMusic import app
-
+from AlexaMusic.utils.logger import send_play_log
 async def send_play_log(message, song_name: str):
     if not (LOG and LOG_GROUP_ID):
         return
