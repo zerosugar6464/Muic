@@ -45,12 +45,8 @@
       "STRING_SESSION": {
         "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
         "value": "BAE6FqgAamrO6hJnBrgFeVF2eV1JkmGp-1Brk9PJFyKuigC45aDLHNX9h9zfviVqrWEPqUH0AWE19ePakIt8mUeI-1PLFEO0Hn1unbQu9SoVFFpeaTUEf0guwL5ov9Y6pz6h92fd44yUNKND5iTZR7IdkmkHtcgJo3Psihna_8n-hp_CFD7LwJKqwJ0xF0FNValeDbS-oGrQ2IevKEZgfqGBc8ZYgvfHV5ql7QQB_DMpVmWEbJ8rwEn861R9FPGxUX4DZdEGXOyk-VJI8u3kjI_Md9VQ6eukTz95NMPucfg2QU1GyZlD89XJz5OIV70mge17ybmZEmRBxNbO17sLFTH5KStX-wAAAAG9qjszAA",
-        "required": true
-      },
-"STRING2_SESSION": {
-        "description": "A Pyrogram Session Get It From  Here @Session_Generator_Robot.",
-   "required": true
-      },
+        "required": true      
+         },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
@@ -59,12 +55,7 @@
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
         "value": "",
-        "required": false
-      },
-      "UPSTREAM_REPO": {
-        "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/Silahanim21/KUMSAL-MUS-C",
-        "required": true
+        "required": false      
            },
       "LOG_GROUP_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Use only Group. Please don't use Channel ID.",
