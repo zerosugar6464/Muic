@@ -31,7 +31,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "900"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))
 
 LOG = True  # veya False, loglama açıksa True olmalı
-LOG_GROUP_ID = -1001234567890  # botun log mesajlarını atacağı grup ID'si
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1002065943011"))
 
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "kumsal")
 
