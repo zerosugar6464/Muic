@@ -52,6 +52,11 @@
         "value": "",
         "required": false
       },
+      "UPSTREAM_REPO": {
+        "description": "If you dont know this, Leave as it is",
+        "value": "https://github.com/Silahanim21/KUMSAL-MUS-C",
+        "required": true
+       },
       "HEROKU_APP_NAME": {
         "description": "Your heroku app name",
         "value": "",
