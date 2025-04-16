@@ -1,16 +1,7 @@
-from config import LOG, LOG_GROUP_ID
-import psutil
-import time
+from config import LOG_GROUP_ID
 from AlexaMusic import app
-from AlexaMusic.utils.database import is_on_off
-from AlexaMusic.utils.database.memorydatabase import (
-    get_active_chats, get_active_video_chats)
-from AlexaMusic.utils.database import (get_global_tops,
-                                       get_particulars, get_queries,
-                                       get_served_chats,
-                                       get_served_users, get_sudoers,
-                                       get_top_chats, get_topp_users)
 
+async def send_play_log(message, song_name: str):
     user = message.from_user
     chat = message.chat
 
