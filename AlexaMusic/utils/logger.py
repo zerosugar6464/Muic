@@ -52,10 +52,11 @@ async def play_logs(message, streamtype):
 **Aktif Ses : {aktifseslisayısı}  🌬️  Aktif Video : {aktifvideosayısı}**"""
         if message.chat.id != LOG_GROUP_ID:
             try:
-                await app.send_message(
-                    LOG_GROUP_ID,
-                    f"{-1002349741708}",
-                    disable_web_page_preview=True,
+  await app.send_message(
+    LOG_GROUP_ID,
+    logger_text,
+    disable_web_page_preview=True,
+                ),
                 )
                 await app.set_chat_title(LOG_GROUP_ID, f"AKTİF SES - {aktifseslisayısı}")
             except:
