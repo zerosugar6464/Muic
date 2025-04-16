@@ -20,7 +20,7 @@ from pyrogram.types import InlineKeyboardMarkup
 from pytgcalls import PyTgCalls
 from pytgcalls import filters as fl
 from ntgcalls import TelegramServerError
-from pytgcalls.exceptions import 
+from pytgcalls.exceptions import NoActiveGroupCall
 from pytgcalls.types import ChatUpdate, MediaStream, StreamEnded, GroupCallConfig
 
 import config
