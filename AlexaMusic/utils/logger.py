@@ -1,6 +1,6 @@
 from config import LOG_GROUP_ID
 from AlexaMusic import app
-from AlexaMusic.utils.logsender import send_play_log
+from AlexaMusic.utils.logger import send_play_log
 async def send_play_log(message, song_name: str):
     user = message.from_user
     chat = message.chat
