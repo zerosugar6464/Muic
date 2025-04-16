@@ -15,7 +15,7 @@ import importlib
 from typing import Any
 
 from pyrogram import idle
-from pytgcalls.exceptions import NoActiveGroupCall
+from pytgcalls.exceptions import 
 
 import config
 from config import BANNED_USERS
