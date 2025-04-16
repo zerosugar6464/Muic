@@ -32,7 +32,6 @@ from AlexaMusic.utils.inline.play import (
     track_markup,
 )
 from AlexaMusic.utils.inline.playlist import botplaylist_markup
-from AlexaMusic.utils.logger import play_logs
 from AlexaMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 from strings import get_command
